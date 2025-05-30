@@ -106,7 +106,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="/hero2.png?height=400&width=500"
                 alt="Building Interior"
                 width={500}
                 height={400}
@@ -161,21 +161,21 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <Image
-                src="/placeholder.svg?height=200&width=300"
+                src="/clubhouse.png?height=200&width=300"
                 alt="Swimming Pool"
                 width={300}
                 height={200}
                 className="w-full h-48 object-cover"
               />
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Kolam Renang</h3>
-                <p className="text-gray-600">Kolam renang dengan desain modern dan area santai yang nyaman</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Club House</h3>
+                <p className="text-gray-600">Club House dengan desain modern dan area santai yang nyaman</p>
               </CardContent>
             </Card>
 
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <Image
-                src="/placeholder.svg?height=200&width=300"
+                src="/fitness.png?height=200&width=300"
                 alt="Fitness Center"
                 width={300}
                 height={200}
@@ -189,7 +189,7 @@ export default function HomePage() {
 
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <Image
-                src="/placeholder.svg?height=200&width=300"
+                src="/playground.png?height=200&width=300"
                 alt="Children Playground"
                 width={300}
                 height={200}
@@ -203,7 +203,7 @@ export default function HomePage() {
 
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <Image
-                src="/placeholder.svg?height=200&width=300"
+                src="/taman.png?height=200&width=300"
                 alt="Garden"
                 width={300}
                 height={200}
@@ -217,7 +217,7 @@ export default function HomePage() {
 
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <Image
-                src="/placeholder.svg?height=200&width=300"
+                src="/hall.png?height=200&width=300"
                 alt="Community Hall"
                 width={300}
                 height={200}
@@ -231,15 +231,15 @@ export default function HomePage() {
 
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <Image
-                src="/placeholder.svg?height=200&width=300"
+                src="/interior.png?height=200&width=300"
                 alt="24/7 Security"
                 width={300}
                 height={200}
                 className="w-full h-48 object-cover"
               />
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Keamanan 24/7</h3>
-                <p className="text-gray-600">Sistem keamanan terpadu dengan petugas 24 jam</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Interior</h3>
+                <p className="text-gray-600">Interior Modern dan Futuristik</p>
               </CardContent>
             </Card>
           </div>
@@ -259,7 +259,7 @@ export default function HomePage() {
             <div className="md:col-span-2 md:row-span-2">
               <div className="relative group overflow-hidden rounded-lg shadow-lg h-96 md:h-full">
                 <Image
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/rumah1.png?height=600&width=800"
                   alt="Asthara Sky Front City Main Building"
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -276,7 +276,7 @@ export default function HomePage() {
             {/* Smaller images */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-48">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/rumah2.png?height=300&width=400"
                 alt="Swimming Pool Area"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -290,7 +290,7 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-48">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/rumah3.png?height=300&width=400"
                 alt="Lobby Interior"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -304,10 +304,10 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-48">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/rumah4.png?height=300&width=400"
                 alt="Fitness Center"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-110"
+                className="object-cover object-bottom transition-transform duration-300 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-2 left-2 text-white">
@@ -318,7 +318,7 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-48">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/jembatan2.png?height=300&width=400"
                 alt="Garden Area"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -333,7 +333,7 @@ export default function HomePage() {
             {/* Medium sized images */}
             <div className="md:col-span-2 relative group overflow-hidden rounded-lg shadow-lg h-48">
               <Image
-                src="/placeholder.svg?height=300&width=600"
+                src="/skyfront.png?height=300&width=600"
                 alt="Unit Interior"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -348,7 +348,7 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-48">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/jembatan.png?height=300&width=400"
                 alt="Children Playground"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -362,7 +362,7 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-lg shadow-lg h-48">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="/kamar-anak.png?height=300&width=400"
                 alt="Parking Area"
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -374,33 +374,8 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="relative group overflow-hidden rounded-lg shadow-lg h-48">
-              <Image
-                src="/placeholder.svg?height=300&width=400"
-                alt="Security Post"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="absolute bottom-2 left-2 text-white">
-                  <h4 className="text-sm font-semibold">Security</h4>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative group overflow-hidden rounded-lg shadow-lg h-48">
-              <Image
-                src="/placeholder.svg?height=300&width=400"
-                alt="Community Hall"
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-110"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="absolute bottom-2 left-2 text-white">
-                  <h4 className="text-sm font-semibold">Community Hall</h4>
-                </div>
-              </div>
-            </div>
+      
+          
           </div>
         </div>
       </section>
@@ -441,13 +416,14 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                <p className="text-gray-500">Interactive Map</p>
-                <p className="text-sm text-gray-400">Google Maps Integration</p>
-              </div>
-            </div>
+<div className="rounded-lg overflow-hidden h-96">
+  <img
+    src="peta.jpg" // Path sesuai lokasi file kamu
+    alt="Peta Lokasi"
+    className="w-full h-full object-cover"
+  />
+</div>
+
           </div>
         </div>
       </section>
