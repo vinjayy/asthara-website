@@ -40,10 +40,16 @@ export default function HomePage() {
                 Contact
               </a>
             </nav>
-            <Button className="bg-amber-600 hover:bg-amber-700">
-              <Phone className="w-4 h-4 mr-2" />
-              Contact Us
-            </Button>
+            <a
+              href="https://wa.me/628179936777"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-amber-600 hover:bg-amber-700">
+                <Phone className="w-4 h-4 mr-2" />
+                Contact Us
+              </Button>
+            </a>
           </div>
         </div>
       </header>
@@ -76,13 +82,20 @@ export default function HomePage() {
                 nyaman dengan pemandangan kota yang menakjubkan.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="bg-white text-amber-900 hover:bg-gray-100"
-                >
-                  Hubungi Kami
-                </Button>
+<a
+  href="https://wa.me/628179936777"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button
+    size="lg"
+    variant="outline"
+    className="bg-white text-amber-900 hover:bg-gray-100"
+  >
+    Hubungi Kami
+  </Button>
+</a>
+
               </div>
             </div>
           </div>
@@ -95,8 +108,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Tentang Asthara Sky Front City</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Proyek hunian premium yang menghadirkan konsep modern living dengan fasilitas terlengkap dan lokasi
-              strategis di jantung kota.
+Asthara Skyfront City adalah proyek pengembangan kawasan terpadu (mixed-use development) seluas 1.100 hektar yang berlokasi di dekat Bandara Internasional Soekarno-Hatta, Tangerang, Banten. Proyek ini dikembangkan oleh PT. Bumi Bandara Indah dan dirancang sebagai kota modern dengan berbagai fasilitas penunjang. Kawasan ini akan terintegrasi dengan infrastruktur utama seperti Tol Dalam Kota dan Tol Kunciran-Serpong, memudahkan akses ke Jakarta dan wilayah Jabodetabek. Di dalamnya, Asthara Skyfront City menawarkan berbagai fasilitas, termasuk perumahan, ruko, hotel, pusat perbelanjaan, kawasan bisnis, club house, rumah sakit, sekolah, universitas, dan pasar modern.
             </p>
           </div>
 
@@ -438,8 +450,8 @@ export default function HomePage() {
               <CardContent className="p-6 text-center">
                 <Phone className="w-12 h-12 text-amber-300 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-2">Telepon</h3>
-                <p className="text-amber-100">+62 21 1234 5678</p>
-                <p className="text-amber-100">+62 812 3456 7890</p>
+                <p className="text-amber-100">08179936777</p>
+               
               </CardContent>
             </Card>
 

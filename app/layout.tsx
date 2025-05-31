@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
-          <WhatsAppButton phoneNumber="6281413215200" />
+          <WhatsAppButton phoneNumber="628179936777" />
         </ThemeProvider>
       </body>
     </html>
