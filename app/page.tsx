@@ -76,15 +76,12 @@ export default function HomePage() {
                 nyaman dengan pemandangan kota yang menakjubkan.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-white text-amber-900 hover:bg-gray-100">
-                  Lihat Unit
-                </Button>
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-amber-900"
+                  className="bg-white text-amber-900 hover:bg-gray-100"
                 >
-                  Download Brosur
+                  Hubungi Kami
                 </Button>
               </div>
             </div>
@@ -283,7 +280,7 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-2 left-2 text-white">
-                  <h4 className="text-sm font-semibold">Kolam Renang</h4>
+                  <h4 className="text-sm font-semibold">Main Building</h4>
                 </div>
               </div>
             </div>
@@ -297,7 +294,7 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-2 left-2 text-white">
-                  <h4 className="text-sm font-semibold">Lobby</h4>
+                  <h4 className="text-sm font-semibold">Main Building</h4>
                 </div>
               </div>
             </div>
@@ -311,7 +308,7 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-2 left-2 text-white">
-                  <h4 className="text-sm font-semibold">Fitness Center</h4>
+                  <h4 className="text-sm font-semibold">Main Building</h4>
                 </div>
               </div>
             </div>
@@ -325,7 +322,7 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-2 left-2 text-white">
-                  <h4 className="text-sm font-semibold">Taman</h4>
+                  <h4 className="text-sm font-semibold">Jembatan</h4>
                 </div>
               </div>
             </div>
@@ -340,8 +337,8 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h3 className="text-lg font-semibold">Interior Unit</h3>
-                  <p className="text-sm">Desain interior modern dan elegan</p>
+                  <h3 className="text-lg font-semibold">The Skyfront</h3>
+                  <p className="text-sm"></p>
                 </div>
               </div>
             </div>
@@ -355,7 +352,7 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-2 left-2 text-white">
-                  <h4 className="text-sm font-semibold">Playground</h4>
+                  <h4 className="text-sm font-semibold">Jembatan</h4>
                 </div>
               </div>
             </div>
@@ -369,7 +366,7 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-2 left-2 text-white">
-                  <h4 className="text-sm font-semibold">Parkir</h4>
+                  <h4 className="text-sm font-semibold">Interior</h4>
                 </div>
               </div>
             </div>
